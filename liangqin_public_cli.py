@@ -13,11 +13,11 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-CLI_VERSION = "1.1.0"
+CLI_VERSION = "1.1.1"
 DEFAULT_SITE_URL = "https://www.liangqinjiamu.com"
 PRODUCTS_PATH = "/wp-json/lq/v1/products"
 CONTENT_PATH = "/wp-json/lq/v1/content"
-CAPABILITIES_PATH = f"{CONTENT_PATH}/capabilities"
+CAPABILITIES_PATH = "/wp-json/lq/v1/capabilities"
 MAX_PER_PAGE = 100
 DETAIL_MODES = ("product_detail", "scene_detail")
 CONTENT_TYPES = ("all", "product", "scene", "case", "faq", "news", "location", "service", "review", "designer", "authority", "factory", "award", "report", "brand")
